@@ -47,7 +47,7 @@ class Razlomak(object):
 
     def __str__(self):
 
-        return 'Razlomak' + str(self._brojnik)+ '' +str(self._nazivnik)
+        return 'Razlomak' + str(self._brojnik)+ '|' +str(self._nazivnik)
 
     def __eq__(self,other):
 
